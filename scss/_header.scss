@@ -1,0 +1,11 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.lien{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}

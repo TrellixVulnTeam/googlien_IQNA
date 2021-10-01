@@ -1,0 +1,30 @@
+$b:#4285F4;
+$r:#DB4437;
+$y:#F4B400;
+$g:#0F9D58;
+$v:#9041F8;
+.googlien{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15vh;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 9vh;
+}
+.blue{
+  color: $b;
+}
+.red{
+  color:$r;
+}
+.yellow{
+  color:$y;
+}
+.green{
+  color:$g;
+}
+.violet{
+  color:$v;
+}

@@ -1,0 +1,68 @@
+.googlien {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15vh; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 9vh; }
+
+.blue {
+  color: #4285F4; }
+
+.red {
+  color: #DB4437; }
+
+.yellow {
+  color: #F4B400; }
+
+.green {
+  color: #0F9D58; }
+
+.violet {
+  color: #9041F8; }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+
+.lien {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%; }
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.link {
+  background: none;
+  padding: .75rem;
+  width: 55vh;
+  height: auto;
+  border-radius: 2.5rem; }
+
+.dropdown {
+  position: relative; }
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #FFFFFF;
+  padding: .75rem;
+  width: 53vh;
+  height: 2vh;
+  border-radius: 2.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out; }
+
+.dropdown > .link:focus + .dropdown-menu {
+  opacity: 1;
+  transform: translateY(0); }
