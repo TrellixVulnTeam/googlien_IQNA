@@ -96,3 +96,8 @@ p {
   .dropdown > .link:focus + .dropdown-menu {
     opacity: 1;
     transform: translateY(0); } }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
