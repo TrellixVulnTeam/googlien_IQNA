@@ -23,6 +23,9 @@ p {
 .violet {
   color: #9041F8; }
 
+.cv {
+  margin-right: 15px; }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -100,4 +103,8 @@ p {
 .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; }
+  justify-content: center;
+  margin-top: 10px; }
+
+.github {
+  margin-right: 50px; }

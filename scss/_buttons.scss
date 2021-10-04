@@ -1,6 +1,9 @@
 .buttons{
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
-  
+  justify-content: center;
+  margin-top: 10px;
+}
+.github{
+  margin-right: 50px;
 }
