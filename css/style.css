@@ -70,6 +70,15 @@ p {
   opacity: 1;
   transform: translateY(0); }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px; }
+
+.github {
+  margin-right: 50px; }
+
 @media screen and (max-width: 768px) {
   .search {
     display: flex;
@@ -99,12 +108,3 @@ p {
   .dropdown > .link:focus + .dropdown-menu {
     opacity: 1;
     transform: translateY(0); } }
-
-.buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 10px; }
-
-.github {
-  margin-right: 50px; }
