@@ -4,35 +4,4 @@
     flex-direction: row;
     justify-content: center;
   }
-  .link{
-    background: none;
-    padding: .75rem;
-    width: 35vh;
-    height: auto;
-    border-radius: 2.5rem;
-  }
-  .dropdown{
-    position:relative;
-    
-  }
-  .dropdown-menu{
-    position:absolute;
-    left: 0;
-    top: 100%;
-    background-color: $w;
-    padding: .75rem;
-    width: 33vh;
-    height: 2vh;
-    border-radius: 2.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
-    opacity: 0;
-  
-    transform: translateY(-10px);
-    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-  }
-  .dropdown > .link:focus + .dropdown-menu{
-    opacity: 1;
-    transform:translateY(0);
-    
-  }
 }

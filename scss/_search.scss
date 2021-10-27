@@ -4,34 +4,30 @@ $w:#FFFFFF ;
   flex-direction: row;
   justify-content: center;
 }
-.link{
+
+.dropdown-container{
+  position:relative;
   background: none;
   padding: .75rem;
   width: 55vh;
   height: auto;
   border-radius: 2.5rem;
+  border: solid 1px black;
 }
-.dropdown{
-  position:relative;
+.dropdown-container ul{
+  position: absolute;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 10ms;
   
 }
-.dropdown-menu{
-  position:absolute;
-  left: 0;
-  top: 100%;
-  background-color: $w;
-  padding: .75rem;
-  width: 53vh;
-  height: 2vh;
-  border-radius: 2.5rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
-  opacity: 0;
-  pointer-events: none;
-  transform: translateY(-10px);
-  transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-}
-.dropdown > .link:focus + .dropdown-menu{
-  opacity: 1;
-  transform:translateY(0);
-  pointer-events: auto;
+.dropdown-container:hover ul{
+max-height: 400px;
+list-style: none;
+background: $w;
+padding: .75rem;
+width: 52vh;
+height: auto;
+border-radius: 2.5rem;
+border: solid 1px black;
 }
